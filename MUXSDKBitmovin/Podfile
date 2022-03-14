@@ -1,0 +1,26 @@
+source 'https://cdn.cocoapods.org'
+source 'https://github.com/bitmovin/cocoapod-specs.git'
+  
+target 'MUXSDKBitmovin' do
+  platform :ios, '12.0'
+  use_frameworks!
+  
+  # Pods for MUXSDKBitmovin
+  pod 'Mux-Stats-Core'
+  pod 'BitmovinPlayer'
+
+  target 'MUXSDKBitmovinTests' do
+    # Pods for testing
+    pod 'Mux-Stats-Core'
+    pod 'BitmovinPlayer'
+  end
+end
+
+target 'MUXSDKBitmovinTv' do
+  platform :tvos, '12.0'
+  use_frameworks!
+  
+  # Pods for MUXSDKBitmovinTv
+  pod 'Mux-Stats-Core'
+  pod 'BitmovinPlayer'
+end
