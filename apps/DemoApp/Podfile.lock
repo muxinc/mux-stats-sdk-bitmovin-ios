@@ -1,0 +1,28 @@
+PODS:
+  - BitmovinPlayer (3.14.0)
+  - Mux-Stats-Bitmovin (0.1.0):
+    - BitmovinPlayer
+    - Mux-Stats-Core (~> 3.5)
+  - Mux-Stats-Core (3.10.0)
+
+DEPENDENCIES:
+  - Mux-Stats-Bitmovin (from `../../`)
+
+SPEC REPOS:
+  https://github.com/bitmovin/cocoapod-specs.git:
+    - BitmovinPlayer
+  trunk:
+    - Mux-Stats-Core
+
+EXTERNAL SOURCES:
+  Mux-Stats-Bitmovin:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  BitmovinPlayer: baef90e0b735c0ae77243de73c0be4e98d8cc221
+  Mux-Stats-Bitmovin: b74138dec083d09e8a46610de135993a1b7a95bf
+  Mux-Stats-Core: 2cd8ff20a06caff6a3df84b43c1785337f92f6d1
+
+PODFILE CHECKSUM: d3cf9387c6ceaa610478663ef31b01285434d50d
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,17 @@
+source 'https://cdn.cocoapods.org'
+source 'https://github.com/bitmovin/cocoapod-specs.git'
+
+target 'DemoApp' do
+  platform :ios, '12.0'
+  use_frameworks!
+
+  # Pods for DemoApp
+  pod 'Mux-Stats-Bitmovin', :path => '../../'
+end
+
+ target 'DemoAppTvOS' do
+   platform :tvos, '12.0'
+   use_frameworks!
+
+   pod 'Mux-Stats-Bitmovin', :path => '../../'
+ end
