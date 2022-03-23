@@ -12,5 +12,5 @@ cd apps/DemoApp
 pod deintegrate && pod update
 xcodebuild -workspace DemoApp.xcworkspace \
            -scheme "DemoApp" \
-           -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.4' \
+           -destination 'platform=iOS Simulator,name=iPhone 11,OS=15.0' \
            test
