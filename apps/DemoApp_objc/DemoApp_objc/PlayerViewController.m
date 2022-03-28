@@ -86,7 +86,7 @@ NSString *const environmentKey = @"YOUR_ENV_KEY";
                                                                                    customData:customData
                                                                                    viewerData:viewerData];
     
-    [MUXSDKStats monitorPlayerWithPlayer:_playerView playerName:playerName customerData:customerData automaticErrorTracking:YES beaconDomain:nil];
+    [MUXSDKStats monitorPlayerWithPlayer:_playerView playerName:playerName customerData:customerData automaticErrorTracking:YES];
 }
 
 - (void)dealloc {
