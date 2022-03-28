@@ -233,11 +233,8 @@ SWIFT_CLASS("_TtC14MUXSDKBitmovin11MUXSDKStats")
 ///   <li>
 ///     automaticErrorTracking: boolean to indicate if the SDK should automatically track player errors
 ///   </li>
-///   <li>
-///     beaconDomain: Domain to send tracking data to, if you want to use a custom beacon domain. Optional.
-///   </li>
 /// </ul>
-+ (void)monitorPlayerWithPlayer:(BMPPlayerView * _Nonnull)player playerName:(NSString * _Nonnull)playerName customerData:(MUXSDKCustomerData * _Nonnull)customerData automaticErrorTracking:(BOOL)automaticErrorTracking beaconDomain:(NSString * _Nullable)beaconDomain;
++ (void)monitorPlayerWithPlayer:(BMPPlayerView * _Nonnull)player playerName:(NSString * _Nonnull)playerName customerData:(MUXSDKCustomerData * _Nonnull)customerData automaticErrorTracking:(BOOL)automaticErrorTracking;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -481,11 +478,8 @@ SWIFT_CLASS("_TtC14MUXSDKBitmovin11MUXSDKStats")
 ///   <li>
 ///     automaticErrorTracking: boolean to indicate if the SDK should automatically track player errors
 ///   </li>
-///   <li>
-///     beaconDomain: Domain to send tracking data to, if you want to use a custom beacon domain. Optional.
-///   </li>
 /// </ul>
-+ (void)monitorPlayerWithPlayer:(BMPPlayerView * _Nonnull)player playerName:(NSString * _Nonnull)playerName customerData:(MUXSDKCustomerData * _Nonnull)customerData automaticErrorTracking:(BOOL)automaticErrorTracking beaconDomain:(NSString * _Nullable)beaconDomain;
++ (void)monitorPlayerWithPlayer:(BMPPlayerView * _Nonnull)player playerName:(NSString * _Nonnull)playerName customerData:(MUXSDKCustomerData * _Nonnull)customerData automaticErrorTracking:(BOOL)automaticErrorTracking;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

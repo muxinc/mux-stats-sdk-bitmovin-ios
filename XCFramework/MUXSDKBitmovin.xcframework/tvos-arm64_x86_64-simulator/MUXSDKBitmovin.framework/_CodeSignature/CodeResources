@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MUXSDKBitmovin-Swift.h</key>
 		<data>
-		dXMEqacTEEKg06pe+2FiXIhBf90=
+		p5+GCcOufImq9GiSDnrLv13UdSM=
 		</data>
 		<key>Headers/MUXSDKBitmovinTv.h</key>
 		<data>
@@ -18,51 +18,51 @@
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		P+Xc6uD8xpf5GqNH+si6gyKOPmw=
+		y0Zi0IPlo3RtQAziU0Y7MzuN2u4=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		S03qSK6thQ4rcLPS8mirc9CChzI=
+		N4z7f/1dFc/aY8nN2C6zgw6FZh4=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		nJHsyyliCSsQGFLjzZMxd3PZo/I=
+		nvNyxMd0MTidFcU8UkoprQv6bnE=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		P+Xc6uD8xpf5GqNH+si6gyKOPmw=
+		y0Zi0IPlo3RtQAziU0Y7MzuN2u4=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		S03qSK6thQ4rcLPS8mirc9CChzI=
+		N4z7f/1dFc/aY8nN2C6zgw6FZh4=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		nJHsyyliCSsQGFLjzZMxd3PZo/I=
+		nvNyxMd0MTidFcU8UkoprQv6bnE=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		2PdDmee+1MQ6TDRrkeElqJrX19Y=
+		4yKXRVZYvcGGDhOsrqgqxFpIqEg=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		ibGCsJrcz1dkX6VHpFpInuj2t5U=
+		Y/N1p/CtA02vRdm4wfe58F7KV1c=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		lV2YD+otIViChPb+4kXTCUMG30o=
+		DQp9dfaTrgrZyotMF10tS9JcCNs=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		2PdDmee+1MQ6TDRrkeElqJrX19Y=
+		4yKXRVZYvcGGDhOsrqgqxFpIqEg=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ibGCsJrcz1dkX6VHpFpInuj2t5U=
+		Y/N1p/CtA02vRdm4wfe58F7KV1c=
 		</data>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		lV2YD+otIViChPb+4kXTCUMG30o=
+		DQp9dfaTrgrZyotMF10tS9JcCNs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gyS2YD8+72B1ClESDe8TmKTqrpzW2Qdvv38S0W/CGaM=
+			k69u1O1b/ycBKwkQ53w7QjBMrVXbuDkJKGg2G1n6W+4=
 			</data>
 		</dict>
 		<key>Headers/MUXSDKBitmovinTv.h</key>
@@ -89,84 +89,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tu8kQ6TTcrihWIw0iD4ISfW0y2MkI8cWMrpzPKpX6to=
+			vfpQZgoFXra7oEaG2qJWRiqgnkkhcxSNt6mRczO3jkg=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oaJwP1Y0umh0+oVPgkgkzcx9zrW14FmTpcp9H5Sk4T8=
+			sNPut8o6q6aHVlH9sAdS4WhYt4PR0eQPBHEQmOpCW4Y=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qMXfTbf04GIlbrqd1GpbyMJCtsAQtVHIKh1vYGAk1yE=
+			i65snSTPisKSoBhnJwechFxdL35zbEpI2w8cgcN6YRE=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tu8kQ6TTcrihWIw0iD4ISfW0y2MkI8cWMrpzPKpX6to=
+			vfpQZgoFXra7oEaG2qJWRiqgnkkhcxSNt6mRczO3jkg=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oaJwP1Y0umh0+oVPgkgkzcx9zrW14FmTpcp9H5Sk4T8=
+			sNPut8o6q6aHVlH9sAdS4WhYt4PR0eQPBHEQmOpCW4Y=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qMXfTbf04GIlbrqd1GpbyMJCtsAQtVHIKh1vYGAk1yE=
+			i65snSTPisKSoBhnJwechFxdL35zbEpI2w8cgcN6YRE=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r/QzydC6SmWyIRwuIAKHyECnjF4EGAqpC9IaIClYfOQ=
+			CQY19mIcWvaG62f6jlSHARKUCdG7prEpqpmiND4DheE=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gbwAJwUoCsMPcEWN4wYR9uO8lF1yptDqhlpeSPR64uo=
+			TNskLdZRHuruXVuhZcICCgSmxlO6+cuu6mUj95aGYSc=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qWSVsHcJC5rxxMrs9KuTtHAVmrWJ5xvZPfgrd7DuFrE=
+			h/tfhbIWpAHKGMof3QBpWPg4kVCkhkPLzGVt24g+hPg=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r/QzydC6SmWyIRwuIAKHyECnjF4EGAqpC9IaIClYfOQ=
+			CQY19mIcWvaG62f6jlSHARKUCdG7prEpqpmiND4DheE=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gbwAJwUoCsMPcEWN4wYR9uO8lF1yptDqhlpeSPR64uo=
+			TNskLdZRHuruXVuhZcICCgSmxlO6+cuu6mUj95aGYSc=
 			</data>
 		</dict>
 		<key>Modules/MUXSDKBitmovin.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qWSVsHcJC5rxxMrs9KuTtHAVmrWJ5xvZPfgrd7DuFrE=
+			h/tfhbIWpAHKGMof3QBpWPg4kVCkhkPLzGVt24g+hPg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

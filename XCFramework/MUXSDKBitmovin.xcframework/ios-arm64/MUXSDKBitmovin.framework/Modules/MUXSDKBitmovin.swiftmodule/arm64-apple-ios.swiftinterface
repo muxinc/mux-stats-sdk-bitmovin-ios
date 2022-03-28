@@ -7,7 +7,7 @@ import MuxCore
 import Swift
 import _Concurrency
 @_inheritsConvenienceInitializers @objc public class MUXSDKStats : ObjectiveC.NSObject {
-  @objc public static func monitorPlayer(player: BitmovinPlayer.PlayerView, playerName: Swift.String, customerData: MuxCore.MUXSDKCustomerData, automaticErrorTracking: Swift.Bool = true, beaconDomain: Swift.String? = nil)
+  @objc public static func monitorPlayer(player: BitmovinPlayer.PlayerView, playerName: Swift.String, customerData: MuxCore.MUXSDKCustomerData, automaticErrorTracking: Swift.Bool = true)
   @objc override dynamic public init()
   @objc deinit
 }
