@@ -24,15 +24,13 @@ public class MUXSDKStats: NSObject {
      - playerName: A name for this instance of the player
      - customerData: A MUXSDKCustomerData object with player, video, and view metadata
      - automaticErrorTracking: boolean to indicate if the SDK should automatically track player errors
-     - beaconDomain: Domain to send tracking data to, if you want to use a custom beacon domain. Optional.
      */
     @objc
     public static func monitorPlayer(
         player: PlayerView,
         playerName: String,
         customerData: MUXSDKCustomerData,
-        automaticErrorTracking: Bool = true,
-        beaconDomain: String? = nil
+        automaticErrorTracking: Bool = true
     ) {
         print(">>> Started monitoring playerView: \(playerName)")
     }
