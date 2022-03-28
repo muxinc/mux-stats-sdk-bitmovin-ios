@@ -22,18 +22,7 @@
 		E915821227E3A83000111A35 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91581D127DFDDD500111A35 /* PlayerViewController.swift */; };
 		E915821327E3A86000111A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91581D627DFDDD700111A35 /* Assets.xcassets */; };
 		E915821427E3A86000111A35 /* InfoTvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91581F827E3A6DC00111A35 /* InfoTvOS.plist */; };
-		E9D859B627EB799B000A335A /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D859B527EB799B000A335A /* DemoAppUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E9D859B927EB799B000A335A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E91581C227DFDDD500111A35 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E91581C927DFDDD500111A35;
-			remoteInfo = DemoApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		683FE1AB4996556E42641E85 /* Pods-DemoAppTvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAppTvOS.release.xcconfig"; path = "Target Support Files/Pods-DemoAppTvOS/Pods-DemoAppTvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -52,8 +41,6 @@
 		E91581E127E0333D00111A35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E91581F827E3A6DC00111A35 /* InfoTvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InfoTvOS.plist; sourceTree = "<group>"; };
 		E91581FE27E3A7A300111A35 /* DemoAppTvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppTvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D859B327EB799B000A335A /* DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D859B527EB799B000A335A /* DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +60,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D859B027EB799B000A335A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				E91581CC27DFDDD500111A35 /* DemoApp */,
-				E9D859B427EB799B000A335A /* DemoAppUITests */,
 				E91581CB27DFDDD500111A35 /* Products */,
 				F98489E331C174DBFBDD25D9 /* Pods */,
 				6E042E0EBCBC56809071B451 /* Frameworks */,
@@ -108,7 +87,6 @@
 			children = (
 				E91581CA27DFDDD500111A35 /* DemoApp.app */,
 				E91581FE27E3A7A300111A35 /* DemoAppTvOS.app */,
-				E9D859B327EB799B000A335A /* DemoAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,14 +104,6 @@
 				E91581F827E3A6DC00111A35 /* InfoTvOS.plist */,
 			);
 			path = DemoApp;
-			sourceTree = "<group>";
-		};
-		E9D859B427EB799B000A335A /* DemoAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E9D859B527EB799B000A335A /* DemoAppUITests.swift */,
-			);
-			path = DemoAppUITests;
 			sourceTree = "<group>";
 		};
 		F98489E331C174DBFBDD25D9 /* Pods */ = {
@@ -188,24 +158,6 @@
 			productReference = E91581FE27E3A7A300111A35 /* DemoAppTvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9D859B227EB799B000A335A /* DemoAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9D859BB27EB799B000A335A /* Build configuration list for PBXNativeTarget "DemoAppUITests" */;
-			buildPhases = (
-				E9D859AF27EB799B000A335A /* Sources */,
-				E9D859B027EB799B000A335A /* Frameworks */,
-				E9D859B127EB799B000A335A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9D859BA27EB799B000A335A /* PBXTargetDependency */,
-			);
-			name = DemoAppUITests;
-			productName = DemoAppUITests;
-			productReference = E9D859B327EB799B000A335A /* DemoAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,10 +173,6 @@
 					};
 					E91581FD27E3A7A300111A35 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					E9D859B227EB799B000A335A = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = E91581C927DFDDD500111A35;
 					};
 				};
 			};
@@ -243,7 +191,6 @@
 			targets = (
 				E91581C927DFDDD500111A35 /* DemoApp */,
 				E91581FD27E3A7A300111A35 /* DemoAppTvOS */,
-				E9D859B227EB799B000A335A /* DemoAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,13 +212,6 @@
 			files = (
 				E915821327E3A86000111A35 /* Assets.xcassets in Resources */,
 				E915821427E3A86000111A35 /* InfoTvOS.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D859B127EB799B000A335A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,23 +321,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D859AF27EB799B000A335A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D859B627EB799B000A335A /* DemoAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E9D859BA27EB799B000A335A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E91581C927DFDDD500111A35 /* DemoApp */;
-			targetProxy = E9D859B927EB799B000A335A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E91581D827DFDDD700111A35 /* LaunchScreen.storyboard */ = {
@@ -462,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -517,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -541,19 +465,16 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mux.bitmovin.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Debug;
 		};
@@ -571,19 +492,16 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mux.bitmovin.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TVOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Release;
 		};
@@ -600,12 +518,10 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mux.bitmovin.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -613,7 +529,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.0;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
 			};
 			name = Debug;
 		};
@@ -630,12 +546,10 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mux.bitmovin.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -643,45 +557,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 13.0;
-			};
-			name = Release;
-		};
-		E9D859BC27EB799B000A335A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mux.bitmovin.DemoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoApp;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
-			};
-			name = Debug;
-		};
-		E9D859BD27EB799B000A335A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mux.bitmovin.DemoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DemoApp;
-				TVOS_DEPLOYMENT_TARGET = 12.0;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
 			};
 			name = Release;
 		};
@@ -711,15 +587,6 @@
 			buildConfigurations = (
 				E915820D27E3A7A400111A35 /* Debug */,
 				E915820E27E3A7A400111A35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9D859BB27EB799B000A335A /* Build configuration list for PBXNativeTarget "DemoAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9D859BC27EB799B000A335A /* Debug */,
-				E9D859BD27EB799B000A335A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
