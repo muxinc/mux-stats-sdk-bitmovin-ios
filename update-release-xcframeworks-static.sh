@@ -17,16 +17,21 @@ clean_up_error () {
     exit 1
 }
 
+# Build and clean up on error
+build () {
+  scheme=$1
+  destination="$2"
+  path="$3"
+  
+  xcodebuild archive -scheme $scheme -workspace $PROJECT -destination "$destination" -archivePath "$path" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES CLANG_ENABLE_MODULES=NO MACH_O_TYPE=staticlib || clean_up_error
+}
+
 ################ Build MuxBitmovin SDK
 
-xcodebuild archive -scheme MUXSDKBitmovinTv -workspace $PROJECT -destination "generic/platform=tvOS" -archivePath "$BUILD_DIR/MUXSDKBitmovinTv.tvOS.xcarchive" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DIS\
-TRIBUTION=YES CLANG_ENABLE_MODULES=NO MACH_O_TYPE=staticlib || clean_up_error
-xcodebuild archive -scheme MUXSDKBitmovinTv -workspace $PROJECT -destination "generic/platform=tvOS Simulator" -archivePath "$BUILD_DIR/MUXSDKBitmovinTv.tvOS-simulator.xcarchive" SKIP_INSTALL=NO \
-BUILD_LIBRARY_FOR_DISTRIBUTION=YES CLANG_ENABLE_MODULES=NO MACH_O_TYPE=staticlib || clean_up_error
-xcodebuild archive -scheme MUXSDKBitmovin -workspace $PROJECT  -destination "generic/platform=iOS" -archivePath "$BUILD_DIR/MUXSDKBitmovin.iOS.xcarchive" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIB\
-UTION=YES CLANG_ENABLE_MODULES=NO MACH_O_TYPE=staticlib || clean_up_error
-xcodebuild archive -scheme MUXSDKBitmovin -workspace $PROJECT  -destination "generic/platform=iOS Simulator" -archivePath "$BUILD_DIR/MUXSDKBitmovin.iOS-simulator.xcarchive" SKIP_INSTALL=NO BUILD\
-_LIBRARY_FOR_DISTRIBUTION=YES CLANG_ENABLE_MODULES=NO MACH_O_TYPE=staticlib || clean_up_error
+build MUXSDKBitmovinTv "generic/platform=tvOS" "$BUILD_DIR/MUXSDKBitmovinTv.tvOS.xcarchive"
+build MUXSDKBitmovinTv "generic/platform=tvOS Simulator" "$BUILD_DIR/MUXSDKBitmovinTv.tvOS-simulator.xcarchive"
+build MUXSDKBitmovin "generic/platform=iOS" "$BUILD_DIR/MUXSDKBitmovin.iOS.xcarchive"
+build MUXSDKBitmovin "generic/platform=iOS Simulator" "$BUILD_DIR/MUXSDKBitmovin.iOS-simulator.xcarchive"
 
  xcodebuild -create-xcframework -framework "$BUILD_DIR/MUXSDKBitmovinTv.tvOS.xcarchive/Products/Library/Frameworks/MUXSDKBitmovin.framework" \
                                 -framework "$BUILD_DIR/MUXSDKBitmovinTv.tvOS-simulator.xcarchive/Products/Library/Frameworks/MUXSDKBitmovin.framework" \
