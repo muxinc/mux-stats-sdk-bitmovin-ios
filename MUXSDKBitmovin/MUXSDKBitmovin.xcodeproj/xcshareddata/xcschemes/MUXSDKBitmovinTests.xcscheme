@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E91581C927DFDDD500111A35"
-               BuildableName = "DemoApp.app"
-               BlueprintName = "DemoApp"
-               ReferencedContainer = "container:DemoApp.xcodeproj">
+               BlueprintIdentifier = "E9800D6C27DFB98D0073D6F8"
+               BuildableName = "MUXSDKBitmovinTests.xctest"
+               BlueprintName = "MUXSDKBitmovinTests"
+               ReferencedContainer = "container:MUXSDKBitmovin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9ECF7FB27F2859E00D37CD7"
-               BuildableName = "DemoAppUITests.xctest"
-               BlueprintName = "DemoAppUITests"
-               ReferencedContainer = "container:DemoApp.xcodeproj">
+               BlueprintIdentifier = "E9800D6C27DFB98D0073D6F8"
+               BuildableName = "MUXSDKBitmovinTests.xctest"
+               BlueprintName = "MUXSDKBitmovinTests"
+               ReferencedContainer = "container:MUXSDKBitmovin.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -50,16 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E91581C927DFDDD500111A35"
-            BuildableName = "DemoApp.app"
-            BlueprintName = "DemoApp"
-            ReferencedContainer = "container:DemoApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -67,16 +57,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E91581C927DFDDD500111A35"
-            BuildableName = "DemoApp.app"
-            BlueprintName = "DemoApp"
-            ReferencedContainer = "container:DemoApp.xcodeproj">
+            BlueprintIdentifier = "E9800D6C27DFB98D0073D6F8"
+            BuildableName = "MUXSDKBitmovinTests.xctest"
+            BlueprintName = "MUXSDKBitmovinTests"
+            ReferencedContainer = "container:MUXSDKBitmovin.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
