@@ -206,6 +206,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
+SWIFT_CLASS("_TtC14MUXSDKBitmovin19MUXSDKPlayerBinding")
+@interface MUXSDKPlayerBinding : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class BMPPlayerView;
 @class NSString;
 @class MUXSDKCustomerData;
@@ -232,9 +239,11 @@ SWIFT_CLASS("_TtC14MUXSDKBitmovin11MUXSDKStats")
 ///     automaticErrorTracking: boolean to indicate if the SDK should automatically track player errors
 ///   </li>
 /// </ul>
-+ (void)monitorPlayerWithPlayer:(BMPPlayerView * _Nonnull)player playerName:(NSString * _Nonnull)playerName customerData:(MUXSDKCustomerData * _Nonnull)customerData automaticErrorTracking:(BOOL)automaticErrorTracking;
++ (void)monitorPlayerWithPlayer:(BMPPlayerView * _Nonnull)player playerName:(NSString * _Nonnull)playerName customerData:(MUXSDKCustomerData * _Nonnull)customerData automaticErrorTracking:(BOOL)automaticErrorTracking beaconCollectionDomain:(NSString * _Nullable)beaconCollectionDomain;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
