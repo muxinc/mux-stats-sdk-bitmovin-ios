@@ -11,9 +11,14 @@ import MuxCore
 
 class MUXSDKPlayerBindingManager {
     var bindings: [String: MUXSDKPlayerBinding] = [:]
+    let dispatcher: MUXSDKDispatcher
     
     // Customer Data Store
     let customerDataStore = MUXSDKCustomerDataStore()
+    
+    init(dispatcher: MUXSDKDispatcher) {
+        self.dispatcher = dispatcher
+    }
     
     func destroyPlayer(name: String) {
         // Remove from bindings dictionary, call viewEnd and detachPlayer

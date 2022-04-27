@@ -14,6 +14,10 @@
 		E93141F4281209B600E57175 /* MUXSDKCustomerDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93141F2281209B000E57175 /* MUXSDKCustomerDataStore.swift */; };
 		E93141F628120DBF00E57175 /* MUXSDKPlayerBindingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93141F528120DBF00E57175 /* MUXSDKPlayerBindingManager.swift */; };
 		E93141F728120DBF00E57175 /* MUXSDKPlayerBindingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93141F528120DBF00E57175 /* MUXSDKPlayerBindingManager.swift */; };
+		E95379532819976E0009A7D4 /* MUXSDKDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95379522819976E0009A7D4 /* MUXSDKDispatcher.swift */; };
+		E95379542819976E0009A7D4 /* MUXSDKDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95379522819976E0009A7D4 /* MUXSDKDispatcher.swift */; };
+		E95379562819977E0009A7D4 /* MUXSDKMainDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95379552819977E0009A7D4 /* MUXSDKMainDispatcher.swift */; };
+		E95379572819977E0009A7D4 /* MUXSDKMainDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95379552819977E0009A7D4 /* MUXSDKMainDispatcher.swift */; };
 		E9800D6E27DFB98D0073D6F8 /* MUXSDKBitmovin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9800D6327DFB98D0073D6F8 /* MUXSDKBitmovin.framework */; };
 		E9800D7327DFB98D0073D6F8 /* MUXSDKBitmovinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9800D7227DFB98D0073D6F8 /* MUXSDKBitmovinTests.swift */; };
 		E9800D9227DFBAE90073D6F8 /* MUXSDKBitmovinTv.h in Headers */ = {isa = PBXBuildFile; fileRef = E9800D8427DFBAE90073D6F8 /* MUXSDKBitmovinTv.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +49,8 @@
 		C3ABFDBF448C397615895233 /* Pods-MUXSDKBitmovinTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MUXSDKBitmovinTv.debug.xcconfig"; path = "Target Support Files/Pods-MUXSDKBitmovinTv/Pods-MUXSDKBitmovinTv.debug.xcconfig"; sourceTree = "<group>"; };
 		E93141F2281209B000E57175 /* MUXSDKCustomerDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUXSDKCustomerDataStore.swift; sourceTree = "<group>"; };
 		E93141F528120DBF00E57175 /* MUXSDKPlayerBindingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUXSDKPlayerBindingManager.swift; sourceTree = "<group>"; };
+		E95379522819976E0009A7D4 /* MUXSDKDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUXSDKDispatcher.swift; sourceTree = "<group>"; };
+		E95379552819977E0009A7D4 /* MUXSDKMainDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUXSDKMainDispatcher.swift; sourceTree = "<group>"; };
 		E9800D6327DFB98D0073D6F8 /* MUXSDKBitmovin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MUXSDKBitmovin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9800D6D27DFB98D0073D6F8 /* MUXSDKBitmovinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MUXSDKBitmovinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9800D7227DFB98D0073D6F8 /* MUXSDKBitmovinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUXSDKBitmovinTests.swift; sourceTree = "<group>"; };
@@ -110,6 +116,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E9537951281997280009A7D4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E95379522819976E0009A7D4 /* MUXSDKDispatcher.swift */,
+				E95379552819977E0009A7D4 /* MUXSDKMainDispatcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E9800D5927DFB98D0073D6F8 = {
 			isa = PBXGroup;
 			children = (
@@ -135,9 +150,10 @@
 		E9800D6527DFB98D0073D6F8 /* MUXSDKBitmovin */ = {
 			isa = PBXGroup;
 			children = (
+				E9537951281997280009A7D4 /* Services */,
 				E9800D9A27DFBB650073D6F8 /* Info.plist */,
-				E9E0059628176DEF00000697 /* MUXSDKPlayerBinding.swift */,
 				E9800D9927DFBB650073D6F8 /* MUXSDKStats.swift */,
+				E9E0059628176DEF00000697 /* MUXSDKPlayerBinding.swift */,
 				E93141F2281209B000E57175 /* MUXSDKCustomerDataStore.swift */,
 				E93141F528120DBF00E57175 /* MUXSDKPlayerBindingManager.swift */,
 			);
@@ -398,8 +414,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E0059728176DEF00000697 /* MUXSDKPlayerBinding.swift in Sources */,
+				E95379562819977E0009A7D4 /* MUXSDKMainDispatcher.swift in Sources */,
 				E9800D9B27DFBB650073D6F8 /* MUXSDKStats.swift in Sources */,
 				E93141F3281209B000E57175 /* MUXSDKCustomerDataStore.swift in Sources */,
+				E95379532819976E0009A7D4 /* MUXSDKDispatcher.swift in Sources */,
 				E93141F628120DBF00E57175 /* MUXSDKPlayerBindingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,8 +435,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E0059828176DEF00000697 /* MUXSDKPlayerBinding.swift in Sources */,
+				E95379572819977E0009A7D4 /* MUXSDKMainDispatcher.swift in Sources */,
 				E9800DA127DFCE070073D6F8 /* MUXSDKStats.swift in Sources */,
 				E93141F4281209B600E57175 /* MUXSDKCustomerDataStore.swift in Sources */,
+				E95379542819976E0009A7D4 /* MUXSDKDispatcher.swift in Sources */,
 				E93141F728120DBF00E57175 /* MUXSDKPlayerBindingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
