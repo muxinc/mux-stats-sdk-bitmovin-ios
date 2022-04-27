@@ -13,7 +13,8 @@ import MuxCore
 @objc
 public class MUXSDKStats: NSObject {
     private static let MuxPlayerSoftwareBitmovinPlayer = "BitmovinPlayer"
-    private static let bindingsManager = MUXSDKPlayerBindingManager()
+    private static let dispatcher: MUXSDKDispatcher = MUXSDKMainDispatcher()
+    private static let bindingsManager = MUXSDKPlayerBindingManager(dispatcher: dispatcher)
     private static var customerViewerData: MUXSDKCustomerViewerData?
     
     private static var deviceIdentifier: String {
@@ -79,6 +80,14 @@ public class MUXSDKStats: NSObject {
     
     static func initSDK() {
         // Provide EnvironmentData and ViewerData to Core
+        let environmentData = MUXSDKEnvironmentData()
+        environmentData.muxViewerId = deviceIdentifier
+        
+        let dataEvent = MUXSDKDataEvent()
+        dataEvent.environmentData = environmentData
+        dataEvent.viewerData = viewerData
+        
+        dispatcher.dispatchGlobalDataEvent(dataEvent)
     }
 }
 
